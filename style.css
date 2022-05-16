@@ -1,0 +1,437 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: jost-regular;
+    src: url(fonts/Jost/static/Jost-Regular.ttf);
+}
+
+@media only screen and (max-width: 1832px) {
+    h1 {
+        font-size: 60px !important;
+    }
+
+    h2 {
+        font-size: 30px !important;
+    }
+}
+
+
+@media only screen and (max-width: 1468px) {
+    h1 {
+        font-size: 55px !important;
+    }
+
+    h2 {
+        font-size: 28px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    form {
+        padding-left: 0 !important;
+    }
+
+    .container-login {
+        display: block !important;
+        margin: 0 auto !important;
+        width: 900px !important;
+        position: static !important;
+
+    }
+
+    .header-login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .corpo-login {
+        text-align: center;
+    }
+
+    .corpo-login form {
+        margin: 0 auto;
+        width: 320px;
+    }
+
+    .sign-in {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+
+        padding: 0 !important;
+    }
+
+    .sign-in-butt {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-img {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 900px) { 
+    .container-login {
+        width: 600px !important;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .container-login {
+        width: 400px !important;
+        padding: 0 !important;
+    }
+
+    footer {
+        margin-top: 10px !important;
+    }
+
+    .sign-in {
+        width: 200px !important;
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .container-login {
+        width: 350px !important;
+        padding: 0 !important;
+    }
+
+    .sign-in {
+        padding: 0 !important;
+    }
+
+    h2 {
+        padding: 0 !important;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .container-login {
+        width: 100vw !important;
+    }
+
+    h1 {
+        font-size: 30px !important;
+        padding-left: 20px !important;
+    }
+
+    h2 {
+
+        font-size: 20px !important;
+    }
+
+    form a{
+        width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    form div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 300px !important;
+    }
+
+    form a {
+        width: 250px !important;
+    }
+
+    .inp-tell {
+        height: 80px !important;
+    }
+ 
+}
+
+@media only screen and (max-width: 320px) {
+    form div {
+        width: 260px !important;
+        
+    }
+
+    .sign-in {
+        width: 200px !important;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    background-color: #000000;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100vw;
+    height: 750px;
+    position: relative;
+
+}
+
+
+.container-img {
+    display: inline-block;
+    width: 55vw;
+    height: 100%;
+}
+
+.container-login {
+    display: inline-block;
+    width: 45vw;
+    height: 100%;
+    position: absolute;
+
+    padding-left: 20px;
+
+}
+
+.img {
+    background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+    background-size: cover;
+    background-position: center center;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 500px;
+}
+
+.login {
+    color: white;
+    font-family: poppins-regular;
+
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+}
+
+
+.header-login img {
+    width: 60px;
+}
+
+.corpo-login h1 {
+    padding: 20px;
+    font-size: 68px;
+    margin-top: 10px;
+    padding-left: 10px;
+    transform: scaleY(0.8);
+}
+
+.corpo-login h2 {
+    margin-top: 15px;
+    font-size: 35px;
+    padding-left: 10px;
+    transform: scaleY(0.8);
+}
+
+form {
+    padding-left: 10px;
+}
+
+.inp-redes {
+    width: 350px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+}
+
+.inp-redes img {
+    width: 15px;
+    margin-right: 3px;
+}
+
+#google {
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 300px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+
+
+    background-color: white;
+    color: rgb(59, 57, 57);
+}
+
+#apple {
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 300px;
+
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.ou {
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.ou p {
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+.ou hr {
+    width: 135px;
+    opacity: 0.15;
+}
+
+.inp-tell {
+    width: 350px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+}
+
+#tell {
+    text-decoration: none;
+
+    color: white;
+    background-color: rgb(29, 155, 240);
+
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+
+    text-align: center;
+    font-size: 14px;
+
+}
+.termos {
+    width: 300px;
+
+
+    color: gray;
+    font-size: 10.3px;
+    line-height: 1;
+}
+
+.termos a {
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+
+.termos a:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    margin-top: 100px;
+    width: 300px;
+    padding-left: 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.sign-in-butt {
+    display: flex;
+    align-items: center;
+
+
+    padding: 0 15px;
+    height: 70px;
+}
+
+#inp-sign-in {
+    text-decoration: none;
+
+    border: 1px solid gray;
+    color: rgb(29, 155, 240);
+
+    padding: 10px;
+    border-radius: 20px;
+
+    width: 300px;
+
+    text-align: center;
+    font-size: 14px;
+
+    transition: .3s;
+
+}
+
+#inp-sign-in:hover {
+    background-color: rgba(29, 155, 240, 0.2);
+}
+
+footer {
+    background-color: #000000;
+
+    color: gray;
+    padding-top: 15px;
+    text-align: center;
+
+    font-size: 12px;
+    font-family: poppins-regular;
+
+    padding: 10px 50px;
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 8px;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-align {
+    margin-top: 10px;
+    display: inline-block;
+}
