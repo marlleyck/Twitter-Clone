@@ -46,7 +46,13 @@
         margin: 0 auto !important;
         width: 900px !important;
         position: static !important;
-
+        
+    }
+    form {
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column !important;
+        margin: 0 auto !important;
     }
 
     .header-login {
@@ -61,7 +67,6 @@
 
     .corpo-login form {
         margin: 0 auto;
-        width: 320px;
     }
 
     .sign-in {
@@ -104,6 +109,7 @@
         width: 200px !important;
         padding: 0 !important;
     }
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -151,7 +157,7 @@
         align-items: center;
         justify-content: center;
 
-        width: 300px !important;
+        width: 320px !important;
     }
 
     form a {
@@ -165,14 +171,19 @@
 }
 
 @media only screen and (max-width: 320px) {
-    form div {
-        width: 260px !important;
-        
-    }
 
     .sign-in {
         width: 200px !important;
     }
+
+    form div {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        width: 250px !important;
+    }
+
 }
 
 /* ============= CSS GERAL =============  */
@@ -275,7 +286,6 @@ form {
 }
 
 .inp-redes {
-    width: 350px;
     height: 50px;
 
     display: flex;
@@ -323,7 +333,6 @@ form {
 }
 
 .ou {
-    width: 350px;
     display: flex;
     align-items: center;
 }
@@ -339,7 +348,6 @@ form {
 }
 
 .inp-tell {
-    width: 350px;
     height: 50px;
 
     display: flex;
