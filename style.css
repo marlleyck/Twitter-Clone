@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+/* ============= ADICIONADO FONTES =============  */
+
 @font-face {
     font-family: poppins-regular;
     src: url(fonts/Poppins/Poppins-Regular.ttf);
@@ -10,6 +13,8 @@
     src: url(fonts/Jost/static/Jost-Regular.ttf);
 }
 
+/* ============= MEDIA QUERIES =============  */
+
 @media only screen and (max-width: 1832px) {
     h1 {
         font-size: 60px !important;
@@ -19,7 +24,6 @@
         font-size: 30px !important;
     }
 }
-
 
 @media only screen and (max-width: 1468px) {
     h1 {
@@ -171,11 +175,15 @@
     }
 }
 
+/* ============= CSS GERAL =============  */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 
 html,body {
     background-color: #000000;
@@ -183,12 +191,15 @@ html,body {
     overflow-x: hidden;
 }
 
+
 main {
     width: 100vw;
     height: 750px;
     position: relative;
 
 }
+
+/* ============= CSS ASIDE IMG & LOGIN =============  */
 
 
 .container-img {
@@ -207,6 +218,8 @@ main {
 
 }
 
+/* ============= CSS ASIDE IMG =============  */
+
 .img {
     background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
     background-size: cover;
@@ -223,6 +236,8 @@ main {
 .img img {
     width: 500px;
 }
+
+/* ============= CSS LOGIN/HEADER-LOGIN/CORPO-LOGIN =============  */
 
 .login {
     color: white;
@@ -252,6 +267,8 @@ main {
     padding-left: 10px;
     transform: scaleY(0.8);
 }
+
+/* ============= CSS FORM & CORPO DO LOGIN =============  */
 
 form {
     padding-left: 10px;
@@ -400,6 +417,8 @@ form {
 #inp-sign-in:hover {
     background-color: rgba(29, 155, 240, 0.2);
 }
+
+/* ============= CSS FOOTER =============  */
 
 footer {
     background-color: #000000;
